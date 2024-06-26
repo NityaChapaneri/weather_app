@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- CodingManish -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    
+
+    <div class="container">
+        <div class="wrapper">
+            <div class="img_section">
+                <div class="default_info">
+                    <h2 class="default_day">Sunday</h2>
+                    <span class="default_date">18 September 2023 </span>
+                    <div class="icons">
+                        <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="" />
+                        <h2 class="weather_temp">22°C</h2>
+                        <h3 class="cloudtxt">Overcast Clouds</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="content_section">
+                <form>
+                    <input type="text" placeholder="Search Location" class="input_field" />
+                    <button type="submit" class="btn_search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+
+                <div class="day_info">
+                    <div class="content">
+                        <p class="title"><i class="fa-solid fa-location-dot"></i> LOCATION</p>
+                        <span class="value"> --  </span>
+                    </div>
+                    <div class="content">
+                        <p class="title"><i class="fa-solid fa-temperature-empty"></i> TEMP</p>
+                        <span class="value"> -- </span>
+                    </div>
+                    <div class="content">
+                        <p class="title"> <i class="fa-solid fa-water"></i> HUMIDITY</p>
+                        <span class="value"> -- </span>
+                    </div>
+                    <div class="content">
+                        <p class="title"> <i class="fa-solid fa-wind"></i> WIND-SPEED</p>
+                        <span class="value"> -- </span>
+                    </div>
+                </div>
+
+                <div class="list_content">
+                    <ul>
+                        <li>
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                            <span>Sat</span>
+                            <span class="day_temp"> --°C</span>
+                        </li>
+                        <li>
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                            <span>Sat</span>
+                            <span class="day_temp"> --°C</span>
+                        </li>
+                        <li>
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                            <span>Sat</span>
+                            <span class="day_temp"> --°C</span>
+                        </li>
+                        <li>
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                            <span>Sat</span>
+                            <span class="day_temp"> --°C</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
